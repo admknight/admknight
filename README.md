@@ -12,6 +12,16 @@ I build and maintain practical open-source projects, automation workflows, devel
 [![GitHub](https://img.shields.io/badge/GitHub-admknight-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admknight)
 [![Mega Repo](https://img.shields.io/badge/Featured-CloudStream_Mega_Repo-2ea44f?style=for-the-badge)](https://admknight.github.io/CloudstreamExtensions/)
 
+<br>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=43A7FF&center=true&vCenter=true&width=760&lines=Open+Source+%E2%80%A2+Automation+%E2%80%A2+Developer+Tools;Building+useful+things%2C+one+repository+at+a+time.;CloudStream+Mega+Repo+v1.0+%E2%80%A2+Live+%26+Automated)](https://admknight.github.io/)
+
+<br>
+
+[![Portfolio](https://img.shields.io/website?url=https%3A%2F%2Fadmknight.github.io%2F&style=flat-square&label=portfolio)](https://admknight.github.io/)
+[![Last Commit](https://img.shields.io/github/last-commit/admknight/CloudstreamExtensions?style=flat-square&label=mega%20repo%20updated)](https://github.com/admknight/CloudstreamExtensions/commits/master)
+[![Stars](https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=flat-square&label=mega%20repo%20stars)](https://github.com/admknight/CloudstreamExtensions/stargazers)
+
 </div>
 
 ---
