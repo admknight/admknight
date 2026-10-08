@@ -16,6 +16,11 @@
 [![GitHub](https://img.shields.io/badge/GitHub-admknight-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admknight)
 [![Mega Repo](https://img.shields.io/badge/Featured-CloudStream_Mega_Repo-2ea44f?style=for-the-badge)](https://admknight.github.io/CloudstreamExtensions/)
 
+<br>
+
+[![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&color=43A7FF&label=FOLLOWERS)](https://github.com/admknight?tab=followers)
+[![MegaRepo Stars](https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=for-the-badge&color=ffd700&label=MEGAREPO+STARS)](https://github.com/admknight/CloudstreamExtensions/stargazers)
+
 </div>
 
 ---
@@ -57,6 +62,12 @@ class AdamKnight:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+### Frameworks & Ecosystems
+
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![CloudStream](https://img.shields.io/badge/CloudStream-Extensions-7257d3?style=for-the-badge)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+
 ### Automation & Platforms
 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -64,6 +75,35 @@ class AdamKnight:
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-Workflows-2ea44f?style=for-the-badge)
 ![AI Tooling](https://img.shields.io/badge/AI-Tooling-7257d3?style=for-the-badge)
+
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_repos&style=for-the-badge&label=PUBLIC+REPOS&color=43A7FF)](https://github.com/admknight?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&label=FOLLOWERS&color=43A7FF)](https://github.com/admknight?tab=followers)
+[![MegaRepo Stars](https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=for-the-badge&label=MEGAREPO+STARS&color=ffd700)](https://github.com/admknight/CloudstreamExtensions/stargazers)
+[![Gists](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_gists&style=for-the-badge&label=PUBLIC+GISTS&color=7257d3)](https://gist.github.com/admknight)
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=admknight&theme=tokyonight&hide_border=true&background=0d1117&stroke=43A7FF&ring=43A7FF&fire=ffd700&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=43A7FF&sideLabels=43A7FF&dates=888888)](https://streak-stats.demolab.com/)
+
+</div>
+
+---
+
+## Contribution Graph
+
+<div align="center">
+
+[![Adam Knight GitHub contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=admknight&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=43A7FF&line=43A7FF&point=ffd700)](https://github.com/admknight)
 
 </div>
 
@@ -111,6 +151,15 @@ An automatically maintained CloudStream extensions repository built around upstr
 
 ## Featured Projects
 
+<div align="center">
+
+[![CloudStream Mega Repo](https://gh-card.dev/repos/admknight/CloudstreamExtensions.svg?fullname=1)](https://github.com/admknight/CloudstreamExtensions)
+[![Universal ChatGPT Custom Instructions](https://gh-card.dev/repos/admknight/universal-chatgpt-custom-instructions.svg?fullname=1)](https://github.com/admknight/universal-chatgpt-custom-instructions)
+[![Claude Skills](https://gh-card.dev/repos/admknight/claude-skills.svg?fullname=1)](https://github.com/admknight/claude-skills)
+[![Portfolio](https://gh-card.dev/repos/admknight/admknight.github.io.svg?fullname=1)](https://github.com/admknight/admknight.github.io)
+
+</div>
+
 | Project | What it is |
 | --- | --- |
 | **[CloudstreamExtensions](https://github.com/admknight/CloudstreamExtensions)** | Automated CloudStream Mega Repo with aggregation, verification, deduplication, custom providers, and health monitoring. |
@@ -127,6 +176,18 @@ An automatically maintained CloudStream extensions repository built around upstr
 - AI instruction systems and skills
 - CloudStream Mega Repo maintenance and validation
 - Turning useful experiments into documented, repeatable projects
+
+---
+
+## Random Dev Quote
+
+<div align="center">
+
+[![Random developer quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/PiyushSuthar/github-readme-quotes)
+
+<sub>Build useful things. Automate what repeats. Keep improving what ships.</sub>
+
+</div>
 
 ---
 
@@ -147,5 +208,7 @@ An automatically maintained CloudStream extensions repository built around upstr
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=120&section=footer&animation=twinkling" width="100%" alt="Footer">
 
 **Build useful things. Automate what repeats. Keep improving what ships.**
+
+<sub>Projects evolve continuously — the portfolio and MegaRepo dashboards pull current project data from GitHub.</sub>
 
 </div>
