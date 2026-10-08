@@ -1,6 +1,9 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=900&color=43A7FF&center=true&vCenter=true&multiline=true&width=850&height=95&lines=Civil+Engineer+by+profession.;Tech+Builder+by+curiosity.;Building+automation%2C+AI+tools+and+open+source.)](https://admknight.github.io/)
+<a href="https://admknight.github.io/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=25&duration=3000&pause=900&color=43A7FF&center=true&vCenter=true&multiline=true&width=850&height=165&lines=Civil+Engineer+by+profession.;Tech+Builder+by+curiosity.;Building+automation%2C+AI+tools+and+open+source." width="100%" alt="Civil Engineer by profession. Tech Builder by curiosity. Building automation, AI tools and open source.">
+</a>
+<br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Adam%20Knight&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Civil%20Engineer%20%C3%97%20Tech%20Builder.&descSize=18&descAlignY=55" width="100%" alt="Adam Knight">
 
@@ -156,21 +159,39 @@ An automatically maintained CloudStream extensions repository built around upstr
 
 ## Featured Projects
 
-<div align="center">
-
-[![CloudStream Mega Repo](https://gh-card.dev/repos/admknight/CloudstreamExtensions.svg?fullname=1)](https://github.com/admknight/CloudstreamExtensions)
-[![Universal ChatGPT Custom Instructions](https://gh-card.dev/repos/admknight/universal-chatgpt-custom-instructions.svg?fullname=1)](https://github.com/admknight/universal-chatgpt-custom-instructions)
-[![Claude Skills](https://gh-card.dev/repos/admknight/claude-skills.svg?fullname=1)](https://github.com/admknight/claude-skills)
-[![Portfolio](https://gh-card.dev/repos/admknight/admknight.github.io.svg?fullname=1)](https://github.com/admknight/admknight.github.io)
-
-</div>
-
-| Project | What it is |
-| --- | --- |
-| **[CloudstreamExtensions](https://github.com/admknight/CloudstreamExtensions)** | Automated CloudStream Mega Repo with aggregation, verification, deduplication, custom providers, and health monitoring. |
-| **[universal-chatgpt-custom-instructions](https://github.com/admknight/universal-chatgpt-custom-instructions)** | Adaptive ChatGPT Custom Instructions for multiple plans and use cases. |
-| **[claude-skills](https://github.com/admknight/claude-skills)** | Skills, agents, commands, references, and productivity tooling for AI coding assistants. |
-| **[admknight.github.io](https://github.com/admknight/admknight.github.io)** | Public project hub and portfolio source. |
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/CloudstreamExtensions">☁️ CloudStream Mega Repo</a></h3>
+      <p><strong>Flagship · Extensions & Automation</strong></p>
+      <p>Automated CloudStream extension hub with upstream aggregation, deduplication, package verification, custom providers, and health monitoring.</p>
+      <p>
+        <a href="https://github.com/admknight/CloudstreamExtensions/stargazers"><img src="https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=flat-square&label=Stars" alt="MegaRepo stars"></a>
+        <a href="https://admknight.github.io/CloudstreamExtensions/"><img src="https://img.shields.io/badge/Project-Site-1687e8?style=flat-square" alt="Project site"></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/universal-chatgpt-custom-instructions">🧠 Universal ChatGPT Custom Instructions</a></h3>
+      <p><strong>AI · Adaptive Instructions</strong></p>
+      <p>Adaptive ChatGPT Custom Instructions for multiple plans and use cases, organized for practical reuse.</p>
+      <p><a href="https://github.com/admknight/universal-chatgpt-custom-instructions"><img src="https://img.shields.io/badge/View-Repository-7257d3?style=flat-square" alt="View repository"></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/claude-skills">🛠️ Claude Skills</a></h3>
+      <p><strong>AI Coding · Developer Productivity</strong></p>
+      <p>Collection of skills, agents, commands, and reference material for AI-powered development workflows.</p>
+      <p><a href="https://github.com/admknight/claude-skills"><img src="https://img.shields.io/badge/View-Repository-7257d3?style=flat-square" alt="View repository"></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/admknight.github.io">🌐 Portfolio & Project Hub</a></h3>
+      <p><strong>GitHub Pages · Open Source</strong></p>
+      <p>Source for the Adam Knight portfolio and public project directory, with links to ongoing projects.</p>
+      <p><a href="https://admknight.github.io/"><img src="https://img.shields.io/badge/Visit-Portfolio-1687e8?style=flat-square" alt="Visit portfolio"></a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
