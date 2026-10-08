@@ -1,8 +1,8 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=900&color=43A7FF&center=true&vCenter=true&multiline=true&width=850&height=95&lines=Hey%2C+I'm+Adam+Knight+%F0%9F%91%8B;I+build+systems+that+maintain+themselves.)](https://admknight.github.io/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=900&color=43A7FF&center=true&vCenter=true&multiline=true&width=850&height=95&lines=Civil+Engineer+by+profession.;Tech+Builder+by+curiosity.;Building+automation%2C+AI+tools+and+open+source.)](https://admknight.github.io/)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Adam%20Knight&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Open%20Source.%20Automation.%20Developer%20Tools.&descSize=18&descAlignY=55" width="100%" alt="Adam Knight">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Adam%20Knight&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Civil%20Engineer%20%C3%97%20Tech%20Builder.&descSize=18&descAlignY=55" width="100%" alt="Adam Knight">
 
 <img src="https://raw.githubusercontent.com/admknight/CloudstreamExtensions/refs/heads/master/assets/icon.png" width="108" alt="Adam Knight logo">
 
@@ -29,23 +29,18 @@
 
 ```python
 class AdamKnight:
-    username    = "admknight"
-    role        = "Open Source Builder"
-    status      = "Always automating something"
-
-    interests   = [
-        "Automation",
-        "Developer Tools",
-        "AI Tooling",
-        "Open Source",
-    ]
+    username    = "admknight"  # Public identity, not my legal name
+    identity    = "Civil Engineer × Tech Builder"
+    profession  = ["Civil Engineering", "Estimating", "QS", "Contracts"]
+    tech        = ["Automation", "Python", "AI Tools", "Open Source"]
+    status      = "Engineering by day. Building by curiosity."
 
     flagship    = "CloudStream Mega Repo"
-    currently   = "Building systems that maintain themselves"
+    currently   = "Connecting engineering experience with useful tech"
     motto       = "Automate what repeats. Document what matters."
 
     def __repr__(self):
-        return "Build. Automate. Improve. Repeat."
+        return "Civil Engineer. Tech Guy. Problem Solver."
 ```
 
 ---
@@ -171,6 +166,7 @@ An automatically maintained CloudStream extensions repository built around upstr
 
 ## Current Focus
 
+- Connecting civil estimating, quantity surveying, and contract workflows with practical automation
 - Resilient automation around open-source repositories
 - Developer tooling and reusable workflows
 - AI instruction systems and skills
