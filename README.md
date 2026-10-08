@@ -29,7 +29,7 @@
 
 ```python
 class AdamKnight:
-    username    = "admknight"  # Public identity, not my legal name
+    username    = "admknight"
     identity    = "Civil Engineer × Tech Builder"
     profession  = ["Civil Engineering", "Estimating", "QS", "Contracts"]
     tech        = ["Automation", "Python", "AI Tools", "Open Source"]
