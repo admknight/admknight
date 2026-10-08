@@ -1,0 +1,63 @@
+name: Refresh profile contribution chart
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/activity-chart.yml'
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity-chart
+  cancel-in-progress: true
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate static contribution charts
+        uses: dturovskiy/deus-commit-chart@v1.4.1
+        with:
+          username: admknight
+          token: ${{ github.token }}
+          default-days: '90'
+          ranges: '30,90,365'
+          theme: github-compact
+          layout: spacious
+          output-dir: activity-dist
+          title: GitHub contribution activity
+
+      - name: Validate generated files
+        run: |
+          set -euo pipefail
+          test -s activity-dist/activity-30d.svg
+          test -s activity-dist/activity-90d.svg
+          test -s activity-dist/activity-365d.svg
+          grep -q '<svg' activity-dist/activity-90d.svg
+
+      - name: Publish charts to isolated activity-assets branch
+        env:
+          TARGET_BRANCH: activity-assets
+        run: |
+          set -euo pipefail
+          temp_dir="$(mktemp -d)"
+          cp -a activity-dist/. "$temp_dir/"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --orphan "$TARGET_BRANCH"
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          cp -a "$temp_dir"/. .
+          git add -A
+          git commit -m "chore: refresh generated profile contribution charts"
+          git push --force origin "$TARGET_BRANCH"
