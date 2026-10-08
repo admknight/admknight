@@ -98,7 +98,17 @@ class AdamKnight:
 
 <div align="center">
 
-[![Adam Knight GitHub contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=admknight&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=43A7FF&line=43A7FF&point=ffd700)](https://github.com/admknight)
+<a href="https://github.com/admknight/admknight/blob/activity-assets/activity-365d.svg">
+  <img src="https://raw.githubusercontent.com/admknight/admknight/activity-assets/activity-365d.svg" width="100%" alt="Adam Knight GitHub contribution activity over the past 365 days">
+</a>
+
+<p>
+  <a href="https://github.com/admknight/admknight/blob/activity-assets/activity-30d.svg">30 days</a> ·
+  <a href="https://github.com/admknight/admknight/blob/activity-assets/activity-90d.svg">90 days</a> ·
+  <a href="https://github.com/admknight/admknight/blob/activity-assets/activity-365d.svg">365 days</a>
+</p>
+
+<sub>Static contribution chart hosted in this profile repository and refreshed daily by GitHub Actions.</sub>
 
 </div>
 
