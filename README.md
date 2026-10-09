@@ -9,20 +9,6 @@
 
 ---
 
-<div align="center">
-
-<a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/actions-card.svg" width="760" alt="Account-wide GitHub Actions health and most recent public workflow run"></a>
-
-<p>
-  <a href="https://admknight.github.io/"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/portfolio.svg" width="252" alt="Visit the Adam Knight portfolio"></a>&nbsp;&nbsp;
-  <a href="https://adam-cloudstream-bundles.badass-insane.workers.dev/"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/builder.svg" width="280" alt="Build a personal CloudStream repository"></a>
-</p>
-
-<sub><a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md">Review monitored workflows and any failures</a></sub>
-</div>
-
----
-
 ## `whoami`
 
 ```python
@@ -41,6 +27,15 @@ class AdamKnight:
 ```
 
 I work in civil engineering, with a focus on **estimating, quantity surveying, and contracts**. Outside that work, I build and maintain practical open-source tools involving automation, AI workflows, and web utilities.
+
+<div align="center">
+
+<p>
+  <a href="https://admknight.github.io/"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/portfolio.svg" width="252" alt="Visit the Adam Knight portfolio"></a>&nbsp;&nbsp;
+  <a href="https://adam-cloudstream-bundles.badass-insane.workers.dev/"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/builder.svg" width="280" alt="Build a personal CloudStream repository"></a>
+</p>
+
+</div>
 
 ---
 
@@ -92,9 +87,7 @@ Languages, frameworks, infrastructure, and tools I use in projects I actively bu
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/stats-strip.svg" width="760" alt="Public repositories, total stars, followers and public gists">
-
-<p><sub>GitHub profile visitor counter:</sub> <img src="https://komarev.com/ghpvc/?username=admknight&amp;color=356789&amp;style=flat-square&amp;label=VISITS" alt="Live GitHub profile visitor count"></p>
+<img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/stats-strip.svg" width="760" alt="Public repositories, total stars, followers, public gists and profile visits"><img src="https://komarev.com/ghpvc/?username=admknight&amp;color=356789&amp;style=flat-square&amp;label=VISITS" width="1" height="1" alt="">
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=admknight&theme=tokyonight&hide_border=true&background=0d1117&stroke=43A7FF&ring=43A7FF&fire=ffd700&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=43A7FF&sideLabels=43A7FF&dates=888888)](https://streak-stats.demolab.com/)
 
@@ -175,6 +168,16 @@ A selection of original public projects spanning open-source automation, AI inst
 <div align="center">
 
 [![Random developer quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/PiyushSuthar/github-readme-quotes)
+
+</div>
+
+---
+
+<div align="center">
+
+<a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/actions-card.svg" width="760" alt="Account-wide GitHub Actions health and most recent public workflow run"></a>
+
+<sub><a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md">Review monitored workflows and any failures</a></sub>
 
 </div>
 
