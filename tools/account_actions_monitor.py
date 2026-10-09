@@ -70,6 +70,7 @@ def scan(user, api=github_api):
 
     public = [repo for repo in repos if not repo.get("private") and repo.get("owner", {}).get("login", "").casefold() == user.casefold()]
     summary["repos"] = len(public)
+    summary["stars"] = sum(int(repo.get("stargazers_count") or 0) for repo in public)
     for repo in public:
         name = repo["full_name"]
         safe_name = quote(name, safe="/")
@@ -194,7 +195,24 @@ def main():
     summary = scan(args.user)
     checked = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     overall, latest, report = render(summary, checked)
+    from profile_badges import actions_card, stats_strip, quick_link
+    try:
+        account = github_api(f"/users/{quote(args.user)}")
+    except Exception as error:
+        print(f"Public account counters unavailable: {error}")
+        account = {}
     args.out.mkdir(parents=True, exist_ok=True)
+    custom_assets = {
+        "actions-card.svg": actions_card(summary, checked),
+        "stats-strip.svg": stats_strip(
+            summary["repos"] if "stars" in summary else "--",
+            summary.get("stars", "--"),
+            account.get("followers", "--"), account.get("public_gists", "--")),
+        "portfolio.svg": quick_link("portfolio"),
+        "builder.svg": quick_link("builder"),
+    }
+    for name, svg in custom_assets.items():
+        (args.out / name).write_text(svg, encoding="utf-8")
     for filename, content in (("actions.json", overall), ("latest.json", latest)):
         (args.out / filename).write_text(json.dumps(content, separators=(",", ":")) + "\n", encoding="utf-8")
     (args.out / "ACTIONS_STATUS.md").write_text(report, encoding="utf-8")
