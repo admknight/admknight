@@ -57,38 +57,38 @@ Languages, frameworks, infrastructure, and tools I use in projects I actively bu
 <div align="center">
 
 ### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/python.svg" alt="Python" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/javascript.svg" alt="JavaScript" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/typescript.svg" alt="TypeScript" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/go.svg" alt="Go" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/kotlin.svg" alt="Kotlin" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/bash.svg" alt="Bash" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/html5.svg" alt="HTML5" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/css3.svg" alt="CSS3" height="42">
 
 ### Frameworks & Libraries
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express-404D59?style=for-the-badge)
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/nodejs.svg" alt="Node.js" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/react.svg" alt="React" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/fastapi.svg" alt="FastAPI" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/flask.svg" alt="Flask" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/expressjs.svg" alt="Express.js" height="42">
 
 ### DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/docker.svg" alt="Docker" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/github-actions.svg" alt="GitHub Actions" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/linux.svg" alt="Linux" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/nginx.svg" alt="Nginx" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/cloudflare.svg" alt="Cloudflare" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/github-pages.svg" alt="GitHub Pages" height="42">
 
 ### Databases & Tools
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/mongodb.svg" alt="MongoDB" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/postgresql.svg" alt="PostgreSQL" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/redis.svg" alt="Redis" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/sqlite.svg" alt="SQLite" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/git.svg" alt="Git" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/vscode.svg" alt="VS Code" height="42">
+<img src="https://raw.githubusercontent.com/admknight/admknight/main/assets/tech-badges/gradle.svg" alt="Gradle" height="42">
 
 </div>
 
