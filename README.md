@@ -15,6 +15,12 @@
 [![Total GitHub Stars](https://img.shields.io/github/stars/admknight?style=for-the-badge&color=ffd700&label=TOTAL+STARS)](https://github.com/admknight?tab=repositories)
 [![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&color=43A7FF&label=FOLLOWERS)](https://github.com/admknight?tab=followers)
 
+<p align="center">
+  <a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadmknight%2Fadmknight%2Fstatus-assets%2Factions.json&amp;cacheSeconds=300" alt="Actions health across all public GitHub repositories"></a>
+  <a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadmknight%2Fadmknight%2Fstatus-assets%2Flatest.json&amp;cacheSeconds=300" alt="Most recent public repository workflow run"></a>
+</p>
+<p align="center"><sub>Monitoring all public repositories, approximately every 15 minutes · <a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md">View failing workflows</a> · <a href="https://github.com/admknight/admknight/actions/workflows/account-actions-monitor.yml">Monitor workflow</a></sub></p>
+
 <br>
 
 <p align="center">
@@ -139,7 +145,6 @@ A selection of original public projects spanning open-source automation, AI inst
       <p><strong>Extension Catalog · Automation</strong></p>
       <p>A maintained CloudStream extension catalog with upstream aggregation, package checks, and health reporting.</p>
       <p>
-        <a href="https://github.com/admknight/CloudstreamExtensions/actions/workflows/build.yml"><img src="https://github.com/admknight/CloudstreamExtensions/actions/workflows/build.yml/badge.svg" alt="MegaRepo build status"></a>
         <a href="https://github.com/admknight/CloudstreamExtensions/actions/workflows/health.yml"><img src="https://github.com/admknight/CloudstreamExtensions/actions/workflows/health.yml/badge.svg" alt="MegaRepo health status"></a>
       </p>
       <p><a href="https://admknight.github.io/CloudstreamExtensions/">Project Site ↗</a> · <a href="https://github.com/admknight/CloudstreamExtensions">Source ↗</a></p>
