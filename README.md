@@ -13,13 +13,24 @@
 
 ```python
 class AdamKnight:
+    name        = "Adam Knight"
     username    = "admknight"
     identity    = "Civil Engineer × Tech Builder"
-    profession  = ["Civil Engineering", "Estimating", "QS", "Contracts"]
-    tech        = ["Automation", "Python", "AI Tools", "Open Source"]
-    status      = "Engineering by day. Building by curiosity."
 
-    currently   = "Connecting engineering experience with useful tech"
+    profession  = [
+        "Civil Engineering", "Estimating",
+        "Quantity Surveying", "Contracts"
+    ]
+
+    interests   = [
+        "Automation", "AI Tools",
+        "Open Source", "Developer Tools"
+    ]
+
+    status      = "Engineering by day. Building by curiosity."
+    currently   = "Building and improving open-source projects"
+    exploring   = "Smarter automation and AI-powered workflows"
+
     motto       = "Automate what repeats. Document what matters."
 
     def __repr__(self):
