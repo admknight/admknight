@@ -22,6 +22,7 @@
 
 <br>
 
+[![Profile Views](https://komarev.com/ghpvc/?username=admknight&color=43A7FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/admknight)
 [![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&color=43A7FF&label=FOLLOWERS)](https://github.com/admknight?tab=followers)
 [![MegaRepo Stars](https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=for-the-badge&color=ffd700&label=MEGAREPO+STARS)](https://github.com/admknight/CloudstreamExtensions/stargazers)
 
