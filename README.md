@@ -17,10 +17,24 @@
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-admknight.github.io-1687e8?style=for-the-badge&logo=githubpages&logoColor=white)](https://admknight.github.io/)
-[![GitHub](https://img.shields.io/badge/GitHub-admknight-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admknight)
-[![Mega Repo](https://img.shields.io/badge/Featured-CloudStream_Mega_Repo-2ea44f?style=for-the-badge)](https://admknight.github.io/CloudstreamExtensions/)
-[![Personal Repo Builder](https://img.shields.io/badge/Build-Personal_CloudStream_Repo-1687e8?style=for-the-badge)](https://adam-cloudstream-bundles.badass-insane.workers.dev/)
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://github.com/admknight"><img src="https://img.shields.io/badge/GitHub-admknight-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub profile"></a>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://admknight.github.io/"><img src="https://img.shields.io/badge/Portfolio-admknight.github.io-1687e8?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Personal portfolio"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://admknight.github.io/CloudstreamExtensions/"><img src="https://img.shields.io/badge/Featured-CloudStream_Mega_Repo-2ea44f?style=for-the-badge" alt="CloudStream MegaRepo"></a>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://adam-cloudstream-bundles.badass-insane.workers.dev/"><img src="https://img.shields.io/badge/Build-Personal_CloudStream_Repo-1687e8?style=for-the-badge" alt="Personal Repository Builder"></a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
