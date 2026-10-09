@@ -194,14 +194,8 @@ def render(summary, checked):
 VALID_VISITS = re.compile(r"^[0-9][0-9,]*(?:\.[0-9]+)?[kKmM]?$")
 
 
-def fetch_profile_visits(user):
-    params = urlencode({"username": user, "color": "356789", "style": "flat-square", "label": "VISITS"})
-    request = Request("https://komarev.com/ghpvc/?" + params,
-                      headers={"User-Agent": "AdamKnight-Profile-Stats", "Accept": "image/svg+xml"})
-    with urlopen(request, timeout=14) as response:
-        if response.status != 200 or "image/svg+xml" not in response.headers.get("Content-Type", ""):
-            raise ValueError("Komarev did not return an SVG badge")
-        root = ET.fromstring(response.read(30000))
+def parse_profile_visits_svg(data):
+    root = ET.fromstring(data)
     title = next((element.text or "" for element in root.iter()
                   if element.tag.rsplit("}", 1)[-1] == "title"), "")
     for content in (root.attrib.get("aria-label", ""), title):
@@ -209,7 +203,23 @@ def fetch_profile_visits(user):
                           content, re.I)
         if match and VALID_VISITS.fullmatch(match.group(1)):
             return match.group(1)
-    raise ValueError("Komarev badge did not contain a numeric visit count")
+    nodes = ["".join(element.itertext()).strip() for element in root.iter()
+             if element.tag.rsplit("}", 1)[-1] == "text"]
+    if any("VISITS" in value.upper() for value in nodes):
+        matches = [value for value in nodes if VALID_VISITS.fullmatch(value)]
+        if matches:
+            return matches[-1]
+    raise ValueError("Komarev badge did not contain a trustworthy numeric visit count")
+
+
+def fetch_profile_visits(user):
+    params = urlencode({"username": user, "color": "356789", "style": "flat-square", "label": "VISITS"})
+    request = Request("https://komarev.com/ghpvc/?" + params,
+                      headers={"User-Agent": "AdamKnight-Profile-Stats", "Accept": "image/svg+xml"})
+    with urlopen(request, timeout=14) as response:
+        if response.status != 200 or "image/svg+xml" not in response.headers.get("Content-Type", ""):
+            raise ValueError("Komarev did not return an SVG badge")
+        return parse_profile_visits_svg(response.read(30000))
 
 
 def update_profile_visits(cache_file, today, fetcher):
