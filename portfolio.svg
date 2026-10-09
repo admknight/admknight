@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="54" viewBox="0 0 252 54" role="img" aria-label="PORTFOLIO: Personal website">
+<title>PORTFOLIO: Personal website</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111f31"/><stop offset="1" stop-color="#14283c"/></linearGradient></defs>
+<rect x="1" y="1" width="250" height="52" rx="13" fill="url(#bg)" stroke="#30455d" stroke-width="1"/>
+<rect x="1" y="1" width="4" height="50" rx="2" fill="#69b9fb"/>
+<circle cx="27" cy="26" r="11" fill="none" stroke="#69b9fb" stroke-width="1.4"/><path d="M16 26H38M27 15C21 19 21 33 27 37M27 15C33 19 33 33 27 37" fill="none" stroke="#69b9fb" stroke-width="1.2"/>
+<text x="50" y="23" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="0.6" fill="#f1f7ff">PORTFOLIO</text>
+<text x="50" y="39" font-family="Arial,Helvetica,sans-serif" font-size="10.5" fill="#9bb0c7">Personal website</text>
+<path d="M224 25h10m-4-5 5 5-5 5" fill="none" stroke="#69b9fb" stroke-width="1.4" stroke-linejoin="round"/>
+</svg>
