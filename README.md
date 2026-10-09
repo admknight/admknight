@@ -1,13 +1,9 @@
 <div align="center">
 
 <a href="https://admknight.github.io/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=25&duration=3000&pause=900&color=43A7FF&center=true&vCenter=true&multiline=true&width=850&height=165&lines=Civil+Engineer+by+profession.;Tech+Builder+by+curiosity.;Building+automation%2C+AI+tools+and+open+source." width="100%" alt="Civil Engineer by profession. Tech Builder by curiosity. Building automation, AI tools and open source.">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=25&duration=3000&pause=900&color=43A7FF&center=true&vCenter=true&multiline=true&width=850&height=112&lines=Civil+Engineer+by+profession.;Tech+Builder+by+curiosity.;Building+automation%2C+AI+tools+and+open+source." width="100%" alt="Civil Engineer by profession. Tech Builder by curiosity. Building automation, AI tools and open source.">
 </a>
-<br>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Adam%20Knight&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Civil%20Engineer%20%C3%97%20Tech%20Builder.&descSize=18&descAlignY=55" width="100%" alt="Adam Knight">
-
-<img src="https://raw.githubusercontent.com/admknight/CloudstreamExtensions/refs/heads/master/assets/icon.png" width="108" alt="Adam Knight logo">
 
 </div>
 
@@ -15,16 +11,16 @@
 
 <div align="center">
 
+[![Profile Views](https://komarev.com/ghpvc/?username=admknight&color=43A7FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/admknight)
+[![Total GitHub Stars](https://img.shields.io/github/stars/admknight?style=for-the-badge&color=ffd700&label=TOTAL+STARS)](https://github.com/admknight?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&color=43A7FF&label=FOLLOWERS)](https://github.com/admknight?tab=followers)
+
+<br>
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-admknight.github.io-1687e8?style=for-the-badge&logo=githubpages&logoColor=white)](https://admknight.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-admknight-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admknight)
 [![Mega Repo](https://img.shields.io/badge/Featured-CloudStream_Mega_Repo-2ea44f?style=for-the-badge)](https://admknight.github.io/CloudstreamExtensions/)
 [![Personal Repo Builder](https://img.shields.io/badge/Build-Personal_CloudStream_Repo-1687e8?style=for-the-badge)](https://adam-cloudstream-bundles.badass-insane.workers.dev/)
-
-<br>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=admknight&color=43A7FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/admknight)
-[![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&color=43A7FF&label=FOLLOWERS)](https://github.com/admknight?tab=followers)
-[![Total GitHub Stars](https://img.shields.io/github/stars/admknight?style=for-the-badge&color=ffd700&label=TOTAL+STARS)](https://github.com/admknight?tab=repositories)
 
 </div>
 
