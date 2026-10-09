@@ -1,0 +1,46 @@
+name: Generate Custom Tech Arsenal Badges
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tech-badges.yml'
+      - 'tools/build_tech_badges.py'
+      - 'tests/test_tech_badges.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-tech-badges
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test badge inventory, source validation, and SVG markup
+        run: python3 -m unittest discover -s tests -p 'test_tech_badges.py' -v
+
+      - name: Generate self-contained logos and branded badges
+        run: python3 tools/build_tech_badges.py --out assets/tech-badges
+
+      - name: Verify every generated vector badge
+        run: python3 tools/build_tech_badges.py --verify-existing --out assets/tech-badges
+
+      - name: Publish badge assets
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/tech-badges/
+          if git diff --cached --quiet; then
+            echo 'All 26 badges already match the pinned sources.'
+          else
+            git commit -m 'style(profile): publish 26 brand-logo Tech Arsenal badges'
+            git push origin HEAD:main
+          fi
