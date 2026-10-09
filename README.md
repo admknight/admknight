@@ -11,23 +11,14 @@
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=admknight&color=43A7FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/admknight)
-[![Total GitHub Stars](https://img.shields.io/github/stars/admknight?style=for-the-badge&color=ffd700&label=TOTAL+STARS)](https://github.com/admknight?tab=repositories)
-[![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&color=43A7FF&label=FOLLOWERS)](https://github.com/admknight?tab=followers)
+<a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/actions-card.svg" width="760" alt="Account-wide GitHub Actions health and most recent public workflow run"></a>
 
-<p align="center">
-  <a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadmknight%2Fadmknight%2Fstatus-assets%2Factions.json&amp;cacheSeconds=300" alt="Actions health across all public GitHub repositories"></a>
-  <a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadmknight%2Fadmknight%2Fstatus-assets%2Flatest.json&amp;cacheSeconds=300" alt="Most recent public repository workflow run"></a>
-</p>
-<p align="center"><sub>Monitoring all public repositories, approximately every 15 minutes · <a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md">View failing workflows</a> · <a href="https://github.com/admknight/admknight/actions/workflows/account-actions-monitor.yml">Monitor workflow</a></sub></p>
-
-<br>
-
-<p align="center">
-  <a href="https://admknight.github.io/"><img src="https://img.shields.io/badge/Portfolio-admknight.github.io-1687e8?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Personal portfolio"></a>&nbsp;&nbsp;
-  <a href="https://adam-cloudstream-bundles.badass-insane.workers.dev/"><img src="https://img.shields.io/badge/Build-Personal_CloudStream_Repo-1687e8?style=for-the-badge" alt="Personal Repository Builder"></a>
+<p>
+  <a href="https://admknight.github.io/"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/portfolio.svg" width="252" alt="Visit the Adam Knight portfolio"></a>&nbsp;&nbsp;
+  <a href="https://adam-cloudstream-bundles.badass-insane.workers.dev/"><img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/builder.svg" width="280" alt="Build a personal CloudStream repository"></a>
 </p>
 
+<sub><a href="https://github.com/admknight/admknight/blob/status-assets/ACTIONS_STATUS.md">Review monitored workflows and any failures</a></sub>
 </div>
 
 ---
@@ -101,12 +92,9 @@ Languages, frameworks, infrastructure, and tools I use in projects I actively bu
 
 <div align="center">
 
-[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_repos&style=for-the-badge&label=PUBLIC+REPOS&color=43A7FF)](https://github.com/admknight?tab=repositories)
-[![Gists](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_gists&style=for-the-badge&label=PUBLIC+GISTS&color=7257d3)](https://gist.github.com/admknight)
+<img src="https://raw.githubusercontent.com/admknight/admknight/status-assets/stats-strip.svg" width="760" alt="Public repositories, total stars, followers and public gists">
 
-</div>
-
-<div align="center">
+<p><sub>GitHub profile visitor counter:</sub> <img src="https://komarev.com/ghpvc/?username=admknight&amp;color=356789&amp;style=flat-square&amp;label=VISITS" alt="Live GitHub profile visitor count"></p>
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=admknight&theme=tokyonight&hide_border=true&background=0d1117&stroke=43A7FF&ring=43A7FF&fire=ffd700&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=43A7FF&sideLabels=43A7FF&dates=888888)](https://streak-stats.demolab.com/)
 
