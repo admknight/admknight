@@ -172,6 +172,8 @@ A selection of original public projects spanning open-source automation, AI inst
 - Reusable AI instructions and developer productivity tools
 - Maintaining, documenting, and improving open-source projects
 
+**Curated resources:** [Open-source Estimating & QS Toolkit](https://admknight.github.io/estimating-tools.html) — a separately maintained directory of third-party takeoff, BOQ, rate analysis and contract-control tools.
+
 ---
 
 ## Random Dev Quote
