@@ -28,7 +28,9 @@ class TechArsenalTests(unittest.TestCase):
         self.assertTrue(any(child.tag.endswith("path") for child in root.iter()))
         self.assertIn('fill="#77BDF3"', svg)
         self.assertIn("stroke=\"#34536D\"", svg)
-        self.assertNotIn("http://", svg)
+        self.assertNotIn("<script", svg)
+        self.assertNotIn("<image", svg)
+        self.assertNotIn("href=", svg)
 
     def test_untrusted_source_svg_cannot_inject_scripts_or_external_content(self):
         bad = b'<svg viewBox="0 0 24 24"><path d="M0 0\" onload=\"alert(1)\""/></svg>'
