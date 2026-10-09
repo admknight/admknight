@@ -66,6 +66,15 @@ class MonitorTests(unittest.TestCase):
         self.assertIn("1 unchecked", badge["message"])
         self.assertIn("Repository discovery", details)
 
+    def test_numeric_counter_svg_without_accessibility_title(self):
+        svg = (b'<svg xmlns="http://www.w3.org/2000/svg">'
+               b'<text>VISITS</text><text>24</text><text>24</text></svg>')
+        self.assertEqual(monitor.parse_profile_visits_svg(svg), "24")
+
+    def test_bad_counter_svg_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, "trustworthy"):
+            monitor.parse_profile_visits_svg(b'<svg><text>VISITS</text><script>bad</script></svg>')
+
     def test_profile_visits_only_fetch_once_per_utc_day(self):
         import tempfile
         import json
