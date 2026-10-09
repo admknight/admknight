@@ -65,7 +65,10 @@ def fetch_icon(icon_id):
 
 
 def paths_from_svg(data):
-    root = ET.fromstring(data)
+    try:
+        root = ET.fromstring(data)
+    except ET.ParseError as error:
+        raise ValueError('Malformed source SVG') from error
     if root.tag.rsplit("}", 1)[-1] != "svg":
         raise ValueError("Icon source is not an SVG")
     box = root.attrib.get("viewBox", "0 0 24 24").split()
