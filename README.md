@@ -163,6 +163,8 @@ An integrated CloudStream extension hub: **install the full MegaRepo**, **build 
 
 **Project site:** [admknight.github.io/CloudstreamExtensions](https://admknight.github.io/CloudstreamExtensions/)
 
+**Independent companion source:** [cloudstream-personal-bundles](https://github.com/admknight/cloudstream-personal-bundles) — builds selected-only repository links from published MegaRepo metadata without changing the full catalog.
+
 ---
 
 ## Featured Projects
