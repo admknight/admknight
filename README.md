@@ -24,7 +24,7 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=admknight&color=43A7FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/admknight)
 [![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&color=43A7FF&label=FOLLOWERS)](https://github.com/admknight?tab=followers)
-[![MegaRepo Stars](https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=for-the-badge&color=ffd700&label=MEGAREPO+STARS)](https://github.com/admknight/CloudstreamExtensions/stargazers)
+[![Total GitHub Stars](https://img.shields.io/github/stars/admknight?style=for-the-badge&color=ffd700&label=TOTAL+STARS)](https://github.com/admknight?tab=repositories)
 
 </div>
 
@@ -86,7 +86,7 @@ class AdamKnight:
 
 [![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_repos&style=for-the-badge&label=PUBLIC+REPOS&color=43A7FF)](https://github.com/admknight?tab=repositories)
 [![Followers](https://img.shields.io/github/followers/admknight?style=for-the-badge&label=FOLLOWERS&color=43A7FF)](https://github.com/admknight?tab=followers)
-[![MegaRepo Stars](https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=for-the-badge&label=MEGAREPO+STARS&color=ffd700)](https://github.com/admknight/CloudstreamExtensions/stargazers)
+[![Total GitHub Stars](https://img.shields.io/github/stars/admknight?style=for-the-badge&label=TOTAL+STARS&color=ffd700)](https://github.com/admknight?tab=repositories)
 [![Gists](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_gists&style=for-the-badge&label=PUBLIC+GISTS&color=7257d3)](https://gist.github.com/admknight)
 
 </div>
