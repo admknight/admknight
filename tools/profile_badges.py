@@ -65,11 +65,12 @@ def actions_card(summary, checked):
     return surround(760, 116, body, f"Account Actions: {statement}; latest: {repo} {outcome}")
 
 
-def stats_strip(repos, stars, followers, gists):
-    stats = [("PUBLIC REPOS", repos), ("TOTAL STARS", stars), ("FOLLOWERS", followers), ("PUBLIC GISTS", gists)]
+def stats_strip(repos, stars, followers, gists, visits):
+    stats = [("PUBLIC REPOS", repos), ("TOTAL STARS", stars), ("FOLLOWERS", followers),
+             ("PUBLIC GISTS", gists), ("PROFILE VISITS", visits)]
     lines = []
     for i, (name, value) in enumerate(stats):
-        x = 26 + i*184
+        x = 20 + i*152
         if i:
             lines.append(f'<path d="M{x-14} 22V78" stroke="{BORDER}" stroke-width="1"/>')
         lines += [

@@ -8,10 +8,12 @@ No access to private repositories is requested or published.
 import argparse
 import json
 import os
+import re
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 
 API_ROOT = "https://api.github.com"
@@ -187,10 +189,58 @@ def render(summary, checked):
     return overall_badge, latest_badge, "\n".join(lines)
 
 
+# Komarev is already used for this profile's visit count. Check once per UTC
+# day, not on every scheduled 15-minute scan, to avoid artificial visits.
+VALID_VISITS = re.compile(r"^[0-9][0-9,]*(?:\.[0-9]+)?[kKmM]?$")
+
+
+def fetch_profile_visits(user):
+    params = urlencode({"username": user, "color": "356789", "style": "flat-square", "label": "VISITS"})
+    request = Request("https://komarev.com/ghpvc/?" + params,
+                      headers={"User-Agent": "AdamKnight-Profile-Stats", "Accept": "image/svg+xml"})
+    with urlopen(request, timeout=14) as response:
+        if response.status != 200 or "image/svg+xml" not in response.headers.get("Content-Type", ""):
+            raise ValueError("Komarev did not return an SVG badge")
+        root = ET.fromstring(response.read(30000))
+    title = next((element.text or "" for element in root.iter()
+                  if element.tag.rsplit("}", 1)[-1] == "title"), "")
+    for content in (root.attrib.get("aria-label", ""), title):
+        match = re.search(r"(?:VISITS|PROFILE VIEWS|VIEWS)\s*:\s*([0-9][0-9,]*(?:\.[0-9]+)?[kKmM]?)",
+                          content, re.I)
+        if match and VALID_VISITS.fullmatch(match.group(1)):
+            return match.group(1)
+    raise ValueError("Komarev badge did not contain a numeric visit count")
+
+
+def update_profile_visits(cache_file, today, fetcher):
+    old = {}
+    if cache_file and cache_file.exists():
+        try:
+            old = json.loads(cache_file.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            pass
+    if not isinstance(old, dict):
+        old = {}
+    previous = str(old.get("value", "--"))
+    if not VALID_VISITS.fullmatch(previous):
+        previous = "--"
+    if old.get("lastAttemptUTC") == today:
+        return {"value": previous, "lastAttemptUTC": today}
+    try:
+        fresh = str(fetcher())
+        if not VALID_VISITS.fullmatch(fresh):
+            raise ValueError("Visit count was not numeric")
+    except Exception as error:
+        print(f"Daily visit reading unavailable: {type(error).__name__}: {error}")
+        fresh = previous
+    return {"value": fresh, "lastAttemptUTC": today}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--user", required=True)
     parser.add_argument("--out", type=Path, required=True)
+    parser.add_argument("--visits-cache", type=Path)
     args = parser.parse_args()
     summary = scan(args.user)
     checked = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
@@ -202,12 +252,19 @@ def main():
         print(f"Public account counters unavailable: {error}")
         account = {}
     args.out.mkdir(parents=True, exist_ok=True)
+    visit_state = update_profile_visits(
+        args.visits_cache, datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        lambda: fetch_profile_visits(args.user),
+    )
+    (args.out / "profile-visits.json").write_text(json.dumps(visit_state) + "\n", encoding="utf-8")
+    print("Profile visit count:", visit_state["value"])
     custom_assets = {
         "actions-card.svg": actions_card(summary, checked),
         "stats-strip.svg": stats_strip(
             summary["repos"] if "stars" in summary else "--",
             summary.get("stars", "--"),
-            account.get("followers", "--"), account.get("public_gists", "--")),
+            account.get("followers", "--"), account.get("public_gists", "--"),
+            visit_state["value"]),
         "portfolio.svg": quick_link("portfolio"),
         "builder.svg": quick_link("builder"),
     }

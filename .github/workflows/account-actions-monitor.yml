@@ -31,10 +31,15 @@ jobs:
       - name: Run account monitor tests
         run: python3 -m unittest discover -s tests -p 'test_*.py' -v
 
+      - name: Restore daily visit total from published status
+        run: |
+          git fetch origin status-assets
+          git show origin/status-assets:profile-visits.json > profile-visits-cache.json 2>/dev/null || rm -f profile-visits-cache.json
+
       - name: Scan public repository workflows
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 tools/account_actions_monitor.py --user admknight --out account-status-output
+        run: python3 tools/account_actions_monitor.py --user admknight --out account-status-output --visits-cache profile-visits-cache.json
 
       - name: Publish dashboard and badges to isolated status branch
         run: |
@@ -46,11 +51,12 @@ jobs:
           cp account-status-output/ACTIONS_STATUS.md ./ACTIONS_STATUS.md
           cp account-status-output/actions-card.svg ./actions-card.svg
           cp account-status-output/stats-strip.svg ./stats-strip.svg
+          cp account-status-output/profile-visits.json ./profile-visits.json
           cp account-status-output/portfolio.svg ./portfolio.svg
           cp account-status-output/builder.svg ./builder.svg
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add actions.json latest.json ACTIONS_STATUS.md actions-card.svg stats-strip.svg portfolio.svg builder.svg
+          git add actions.json latest.json ACTIONS_STATUS.md actions-card.svg stats-strip.svg portfolio.svg builder.svg profile-visits.json
           if git diff --cached --quiet; then
             echo 'Status assets already current.'
           else

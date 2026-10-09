@@ -28,10 +28,16 @@ class BadgeTests(unittest.TestCase):
         self.assertIn("PARTIAL COVERAGE", badges.actions_card(data, "2026-10-09 00:00"))
 
     def test_stats_metrics_are_unique(self):
-        svg = badges.stats_strip(23, 4, 1, 0)
+        svg = badges.stats_strip(23, 4, 1, 0, 22)
         ET.fromstring(svg)
-        for key in ("PUBLIC REPOS", "TOTAL STARS", "FOLLOWERS", "PUBLIC GISTS"):
+        for key in ("PUBLIC REPOS", "TOTAL STARS", "FOLLOWERS", "PUBLIC GISTS", "PROFILE VISITS"):
             self.assertEqual(svg.count(">" + key + "<"), 1)
+
+    def test_profile_visits_are_a_single_real_numeric_column(self):
+        svg = badges.stats_strip(23, 4, 1, 0, 28)
+        ET.fromstring(svg)
+        self.assertEqual(svg.count(">PROFILE VISITS<"), 1)
+        self.assertIn(">28</text>", svg)
 
     def test_quick_links_valid_and_self_contained(self):
         for kind in ("portfolio", "builder"):

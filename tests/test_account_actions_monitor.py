@@ -66,6 +66,37 @@ class MonitorTests(unittest.TestCase):
         self.assertIn("1 unchecked", badge["message"])
         self.assertIn("Repository discovery", details)
 
+    def test_profile_visits_only_fetch_once_per_utc_day(self):
+        import tempfile
+        import json
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "profile-visits.json"
+            calls = []
+            def fetch():
+                calls.append(1)
+                return "22"
+            a = monitor.update_profile_visits(path, "2026-10-09", fetch)
+            self.assertEqual(a["value"], "22")
+            path.write_text(json.dumps(a), encoding="utf-8")
+            b = monitor.update_profile_visits(path, "2026-10-09", fetch)
+            self.assertEqual(b["value"], "22")
+            self.assertEqual(len(calls), 1)
+            c = monitor.update_profile_visits(path, "2026-10-10", lambda: "23")
+            self.assertEqual(c["value"], "23")
+
+    def test_profile_visits_api_failure_keeps_previous_count(self):
+        import tempfile
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "visits.json"
+            path.write_text('{"value":"22","lastAttemptUTC":"2026-10-08"}', encoding="utf-8")
+            def unavailable():
+                raise RuntimeError("bad connection")
+            result = monitor.update_profile_visits(path, "2026-10-09", unavailable)
+            self.assertEqual(result["value"], "22")
+            self.assertFalse(monitor.VALID_VISITS.fullmatch("<script>"))
+
     def test_markdown_metadata_escaping(self):
         self.assertEqual(monitor.md("A|B\n<script>"), "A\\|B &lt;script&gt;")
 
