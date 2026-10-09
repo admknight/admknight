@@ -105,6 +105,23 @@ Languages, frameworks, infrastructure, and tools I use in projects I actively bu
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+
+[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_repos&style=for-the-badge&label=PUBLIC+REPOS&color=43A7FF)](https://github.com/admknight?tab=repositories)
+[![Gists](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadmknight&query=%24.public_gists&style=for-the-badge&label=PUBLIC+GISTS&color=7257d3)](https://gist.github.com/admknight)
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=admknight&theme=tokyonight&hide_border=true&background=0d1117&stroke=43A7FF&ring=43A7FF&fire=ffd700&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=43A7FF&sideLabels=43A7FF&dates=888888)](https://streak-stats.demolab.com/)
+
+</div>
+
+---
+
 ## Contribution Graph
 
 <div align="center">
@@ -171,6 +188,16 @@ A selection of original public projects spanning open-source automation, AI inst
 - Estimating, quantity surveying, contracts, and practical engineering workflow automation
 - Reusable AI instructions and developer productivity tools
 - Maintaining, documenting, and improving open-source projects
+
+---
+
+## Random Dev Quote
+
+<div align="center">
+
+[![Random developer quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/PiyushSuthar/github-readme-quotes)
+
+</div>
 
 ---
 
