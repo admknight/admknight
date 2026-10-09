@@ -132,6 +132,8 @@ class AdamKnight:
 
 ## Featured Project
 
+**Which tool should you use?** Full MegaRepo (`admknight`) = complete catalog in CloudStream; [Personal Repository Builder](https://adam-cloudstream-bundles.badass-insane.workers.dev/) = selected-only repository URL; [Extension Explorer](https://admknight.github.io/CloudstreamExtensions/explore.html) = browser discovery and bookmarks only. Adding a repo does not install individual extensions.
+
 ### [Adam Knight Mega Repo — CloudStream Extensions & Plugins](https://github.com/admknight/CloudstreamExtensions)
 
 An integrated CloudStream extension hub: **install the full MegaRepo**, **build a personal repository containing only chosen plugins**, or **explore and bookmark extension names** before installing. Guarded upstream aggregation, custom providers, and read-only integrity audits support the catalog.
