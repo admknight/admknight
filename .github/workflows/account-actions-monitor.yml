@@ -1,0 +1,53 @@
+name: Account-wide public Actions monitor
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/account-actions-monitor.yml'
+      - 'tools/account_actions_monitor.py'
+      - 'tests/test_account_actions_monitor.py'
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: account-actions-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout profile source
+        uses: actions/checkout@v4
+
+      - name: Run account monitor tests
+        run: python3 -m unittest discover -s tests -p 'test_account_actions_monitor.py' -v
+
+      - name: Scan public repository workflows
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/account_actions_monitor.py --user admknight --out account-status-output
+
+      - name: Publish dashboard and badges to isolated status branch
+        run: |
+          set -euo pipefail
+          git fetch origin status-assets
+          git switch -C status-assets FETCH_HEAD
+          cp account-status-output/actions.json ./actions.json
+          cp account-status-output/latest.json ./latest.json
+          cp account-status-output/ACTIONS_STATUS.md ./ACTIONS_STATUS.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add actions.json latest.json ACTIONS_STATUS.md
+          if git diff --cached --quiet; then
+            echo 'Status assets already current.'
+          else
+            git commit -m 'chore: refresh account-wide Actions status'
+            git push origin HEAD:status-assets
+          fi
