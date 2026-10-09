@@ -91,27 +91,44 @@ I work in civil engineering, with a focus on **estimating, quantity surveying, a
 
 ---
 
-## Selected Public Projects
+## Featured Projects
 
-These repositories are examples of my work with automation, AI instructions, and web tools.
+A selection of original public projects spanning open-source automation, AI instructions, and web tools.
 
-### [Adam Knight Mega Repo](https://github.com/admknight/CloudstreamExtensions)
-
-A maintained CloudStream extension catalog with upstream aggregation, package checks, and health reporting. The companion tools let users build selected-only repository links or explore extensions before installing them.
-
-[![Build](https://github.com/admknight/CloudstreamExtensions/actions/workflows/build.yml/badge.svg)](https://github.com/admknight/CloudstreamExtensions/actions/workflows/build.yml)
-[![Health](https://github.com/admknight/CloudstreamExtensions/actions/workflows/health.yml/badge.svg)](https://github.com/admknight/CloudstreamExtensions/actions/workflows/health.yml)
-[![MegaRepo Stars](https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=flat-square&label=Project+stars)](https://github.com/admknight/CloudstreamExtensions/stargazers)
-
-**Tools:** [MegaRepo Dashboard](https://admknight.github.io/CloudstreamExtensions/) · [Personal Repository Builder](https://adam-cloudstream-bundles.badass-insane.workers.dev/) · [Extension Explorer](https://admknight.github.io/CloudstreamExtensions/explore.html)
-
-### [Universal ChatGPT Custom Instructions](https://github.com/admknight/universal-chatgpt-custom-instructions)
-
-A reusable collection of adaptive ChatGPT Custom Instructions for different plans and use cases, organized for practical application.
-
-### [Adam Knight Portfolio](https://admknight.github.io/)
-
-A GitHub Pages project hub featuring public repositories, live project data, and links to ongoing work. [View source](https://github.com/admknight/admknight.github.io).
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/CloudstreamExtensions">☁️ CloudStream MegaRepo</a></h3>
+      <p><strong>Extension Catalog · Automation</strong></p>
+      <p>A maintained CloudStream extension catalog with upstream aggregation, package checks, and health reporting.</p>
+      <p>
+        <a href="https://github.com/admknight/CloudstreamExtensions/actions/workflows/build.yml"><img src="https://github.com/admknight/CloudstreamExtensions/actions/workflows/build.yml/badge.svg" alt="MegaRepo build status"></a>
+        <a href="https://github.com/admknight/CloudstreamExtensions/actions/workflows/health.yml"><img src="https://github.com/admknight/CloudstreamExtensions/actions/workflows/health.yml/badge.svg" alt="MegaRepo health status"></a>
+      </p>
+      <p><a href="https://admknight.github.io/CloudstreamExtensions/">Project Site ↗</a> · <a href="https://github.com/admknight/CloudstreamExtensions">Source ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/cloudstream-personal-bundles">🧩 Personal Repository Builder</a></h3>
+      <p><strong>Cloudflare Worker · CloudStream</strong></p>
+      <p>Choose up to 100 plugins from MegaRepo and create a selected-only repository URL. Add it to CloudStream to install the plugins you want individually.</p>
+      <p><a href="https://adam-cloudstream-bundles.badass-insane.workers.dev/">Launch Builder ↗</a> · <a href="https://github.com/admknight/cloudstream-personal-bundles">Source ↗</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/universal-chatgpt-custom-instructions">🧠 Universal ChatGPT Custom Instructions</a></h3>
+      <p><strong>AI Instructions · Reusable Templates</strong></p>
+      <p>Ready-to-paste adaptive ChatGPT Custom Instructions for different plans and use cases, organized for practical reuse.</p>
+      <p><a href="https://github.com/admknight/universal-chatgpt-custom-instructions">Explore Repository ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/admknight/admknight.github.io">🌐 Adam Knight Portfolio</a></h3>
+      <p><strong>GitHub Pages · Open Source</strong></p>
+      <p>An interactive project hub with public repository discovery, live GitHub data, and links to ongoing work.</p>
+      <p><a href="https://admknight.github.io/">Visit Portfolio ↗</a> · <a href="https://github.com/admknight/admknight.github.io">Source ↗</a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
