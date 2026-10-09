@@ -18,6 +18,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-admknight.github.io-1687e8?style=for-the-badge&logo=githubpages&logoColor=white)](https://admknight.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-admknight-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admknight)
 [![Mega Repo](https://img.shields.io/badge/Featured-CloudStream_Mega_Repo-2ea44f?style=for-the-badge)](https://admknight.github.io/CloudstreamExtensions/)
+[![Personal Repo Builder](https://img.shields.io/badge/Build-Personal_CloudStream_Repo-1687e8?style=for-the-badge)](https://adam-cloudstream-bundles.badass-insane.workers.dev/)
 
 <br>
 
@@ -121,9 +122,9 @@ class AdamKnight:
 
 <div align="center">
 
-**542 MegaRepo plugins · 35 healthy sources · 0 package failures**
+**Full MegaRepo · Personal Repository Builder · Extension Explorer**
 
-<sub>Production snapshot verified from the MegaRepo build status on 8 Oct 2026.</sub>
+<sub>For current plugin and source health, see the [live MegaRepo dashboard](https://admknight.github.io/CloudstreamExtensions/), rather than a dated snapshot.</sub>
 
 </div>
 
@@ -133,7 +134,7 @@ class AdamKnight:
 
 ### [Adam Knight Mega Repo — CloudStream Extensions & Plugins](https://github.com/admknight/CloudstreamExtensions)
 
-An automatically maintained CloudStream extensions repository built around upstream aggregation, version-aware deduplication, package verification, custom-provider builds, provider health monitoring, and controlled publication.
+An integrated CloudStream extension hub: **install the full MegaRepo**, **build a personal repository containing only chosen plugins**, or **explore and bookmark extension names** before installing. Guarded upstream aggregation, custom providers, and read-only integrity audits support the catalog.
 
 <div align="center">
 
@@ -149,9 +150,14 @@ An automatically maintained CloudStream extensions repository built around upstr
 - Verifies package availability before production publication.
 - Builds locally maintained custom providers.
 - Separates package health from provider/site health.
+- Refreshes upstream metadata through guarded aggregation every three hours and audits package checksums on a rotating hourly basis.
+- Provides an [Extension Explorer](https://admknight.github.io/CloudstreamExtensions/explore.html) for discovery-only bookmarks, not installation.
+- Provides a [Personal Repository Builder](https://adam-cloudstream-bundles.badass-insane.workers.dev/) that generates installable selected-only CloudStream repository links. Adding the repository does not automatically install plugins.
 - Publishes project status and repository information through GitHub Pages.
 
 **Stable milestone:** [v1.0.0 — First Stable Release](https://github.com/admknight/CloudstreamExtensions/releases/tag/v1.0.0)
+
+**Choose your route:** [Full MegaRepo](https://admknight.github.io/CloudstreamExtensions/#install-full) · [Build a personal repo](https://adam-cloudstream-bundles.badass-insane.workers.dev/) · [Explore extensions](https://admknight.github.io/CloudstreamExtensions/explore.html)
 
 **Project site:** [admknight.github.io/CloudstreamExtensions](https://admknight.github.io/CloudstreamExtensions/)
 
@@ -164,10 +170,11 @@ An automatically maintained CloudStream extensions repository built around upstr
     <td width="50%" valign="top">
       <h3><a href="https://github.com/admknight/CloudstreamExtensions">☁️ CloudStream Mega Repo</a></h3>
       <p><strong>Flagship · Extensions & Automation</strong></p>
-      <p>Automated CloudStream extension hub with upstream aggregation, deduplication, package verification, custom providers, and health monitoring.</p>
+      <p>One extension catalog, three ways to use it: full repository installation, a personalized selected-only repository link, or discovery-only browsing. Protected by guarded aggregation and an hourly read-only integrity audit.</p>
       <p>
         <a href="https://github.com/admknight/CloudstreamExtensions/stargazers"><img src="https://img.shields.io/github/stars/admknight/CloudstreamExtensions?style=flat-square&label=Stars" alt="MegaRepo stars"></a>
         <a href="https://admknight.github.io/CloudstreamExtensions/"><img src="https://img.shields.io/badge/Project-Site-1687e8?style=flat-square" alt="Project site"></a>
+        <a href="https://adam-cloudstream-bundles.badass-insane.workers.dev/"><img src="https://img.shields.io/badge/Create-Personal_Repo-43A7FF?style=flat-square" alt="Personal repository builder"></a>
       </p>
     </td>
     <td width="50%" valign="top">
