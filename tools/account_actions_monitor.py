@@ -160,6 +160,9 @@ def render(summary, checked):
         f"**Status:** {len(failing)} failing workflows · {len(running)} running · {len(unknown)} unchecked · {passes} last-result successes.", "",
         "Each workflow is checked separately. A failed latest meaningful run remains visible until that workflow has a successful run. "
         "Cancelled, skipped and neutral runs do not clear an earlier failure. This is not a live check; it updates when the monitor workflow completes.", "",
+        "Workflow success reports the GitHub Actions job outcome, not proof of every third-party plugin's runtime behavior or a clean "
+        "full-catalog source-metadata audit. MegaRepo's documented immutable holds and untrusted upstream candidates remain "
+        "visible in their own detailed audit evidence, even when its hourly published-byte gate passes.", "",
     ]
     if latest:
         lines += [f"**Latest action:** [{md(latest['repo'])} / {md(latest['workflow'])}]({latest.get('html_url', '#')}) — {md(latest.get('conclusion') or latest.get('status') or 'unknown')}.", ""]
