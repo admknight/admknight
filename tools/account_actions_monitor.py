@@ -163,6 +163,9 @@ def render(summary, checked):
         "Workflow success reports the GitHub Actions job outcome, not proof of every third-party plugin's runtime behavior or a clean "
         "full-catalog source-metadata audit. MegaRepo's documented immutable holds and untrusted upstream candidates remain "
         "visible in their own detailed audit evidence, even when its hourly published-byte gate passes.", "",
+        "**MegaRepo evidence:** [Hourly package audit](https://github.com/admknight/CloudstreamExtensions/actions/workflows/audit-package-integrity.yml) "
+        "· [Strict full post-publication audit](https://github.com/admknight/CloudstreamExtensions/actions/workflows/verify-guarded-post-publication.yml) "
+        "· [Production integrity report](https://github.com/admknight/CloudstreamExtensions/blob/builds/merge-report.json).", "",
     ]
     if latest:
         lines += [f"**Latest action:** [{md(latest['repo'])} / {md(latest['workflow'])}]({latest.get('html_url', '#')}) — {md(latest.get('conclusion') or latest.get('status') or 'unknown')}.", ""]
