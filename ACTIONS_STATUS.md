@@ -1,6 +1,6 @@
 # Account-wide GitHub Actions Status
 
-**Checked:** 2026-10-16 09:54 UTC  
+**Checked:** 2026-10-16 14:43 UTC  
 **Coverage:** 25 public owned repositories; active workflows with recorded runs only.  
 **Status:** 4 failing workflows · 0 running · 0 unchecked · 25 last-result successes.
 
@@ -10,14 +10,14 @@ Workflow success reports the GitHub Actions job outcome, not proof of every thir
 
 **MegaRepo evidence:** [Hourly package audit](https://github.com/admknight/CloudstreamExtensions/actions/workflows/audit-package-integrity.yml) · [Strict full post-publication audit](https://github.com/admknight/CloudstreamExtensions/actions/workflows/verify-guarded-post-publication.yml) · [Production integrity report](https://github.com/admknight/CloudstreamExtensions/blob/builds/merge-report.json).
 
-**Latest action:** [admknight/admknight / Refresh profile contribution chart](https://github.com/admknight/admknight/actions/runs/38883540302) — success.
+**Latest action:** [admknight/CloudstreamExtensions / Recover Missing Guarded Schedules](https://github.com/admknight/CloudstreamExtensions/actions/runs/38902239096) — success.
 
 ## Needs attention
 
 | Repository | Workflow | Last meaningful outcome | Run |
 | --- | --- | --- | --- |
-| admknight/CloudstreamExtensions | Audit Published Plugin Integrity | **failure** | [Investigate](https://github.com/admknight/CloudstreamExtensions/actions/runs/38860917427) |
-| admknight/CloudstreamExtensions | Update Aggregated Repository | **failure** | [Investigate](https://github.com/admknight/CloudstreamExtensions/actions/runs/38851359430) |
+| admknight/CloudstreamExtensions | Audit Published Plugin Integrity | **failure** | [Investigate](https://github.com/admknight/CloudstreamExtensions/actions/runs/38896854264) |
+| admknight/CloudstreamExtensions | Update Aggregated Repository | **failure** | [Investigate](https://github.com/admknight/CloudstreamExtensions/actions/runs/38893915313) |
 | admknight/CloudstreamExtensions | Full Catalog Integrity Review (Read Only) | **failure** | [Investigate](https://github.com/admknight/CloudstreamExtensions/actions/runs/38865282240) |
 | admknight/CloudstreamExtensions | Verify Published Guarded Catalog Integrity | **failure** | [Investigate](https://github.com/admknight/CloudstreamExtensions/actions/runs/38878316093) |
 
@@ -33,7 +33,7 @@ Workflow success reports the GitHub Actions job outcome, not proof of every thir
 | admknight/cloudstream-personal-bundles | Live Cloudflare Worker Smoke Test | success | [Open](https://github.com/admknight/cloudstream-personal-bundles/actions/runs/37881619537) |
 | admknight/cloudstream-personal-bundles | Validate Personal Bundles | success | [Open](https://github.com/admknight/cloudstream-personal-bundles/actions/runs/37881619493) |
 | admknight/CloudstreamExtensions | Audit 79 legacy original commit binaries (read only) | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37998351981) |
-| admknight/CloudstreamExtensions | Audit Published Plugin Integrity | failure | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38860917427) |
+| admknight/CloudstreamExtensions | Audit Published Plugin Integrity | failure | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38896854264) |
 | admknight/CloudstreamExtensions | Build Local CloudStream Plugins | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37407254223) |
 | admknight/CloudstreamExtensions | Check Custom Provider Health | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38859533414) |
 | admknight/CloudstreamExtensions | Full Catalog Integrity Review (Read Only) | failure | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38865282240) |
@@ -41,18 +41,18 @@ Workflow success reports the GitHub Actions job outcome, not proof of every thir
 | admknight/CloudstreamExtensions | One-time verified cleanup of completed branches | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38453559597) |
 | admknight/CloudstreamExtensions | pages-build-deployment | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38774268983) |
 | admknight/CloudstreamExtensions | Publish Stable Release | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37395457356) |
-| admknight/CloudstreamExtensions | Recover Missing Guarded Schedules | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38867296107) |
+| admknight/CloudstreamExtensions | Recover Missing Guarded Schedules | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38902239096) |
 | admknight/CloudstreamExtensions | Sync Full Catalog Integrity Incidents | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38865352560) |
-| admknight/CloudstreamExtensions | Track published integrity incidents | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38860944399) |
-| admknight/CloudstreamExtensions | Update Aggregated Repository | failure | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38851359430) |
+| admknight/CloudstreamExtensions | Track published integrity incidents | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38896886842) |
+| admknight/CloudstreamExtensions | Update Aggregated Repository | failure | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38893915313) |
 | admknight/CloudstreamExtensions | Validate Full Integrity Incident Sync | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37985801343) |
 | admknight/CloudstreamExtensions | Validate Guarded Publication Candidate (No Writes) | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38456064381) |
 | admknight/CloudstreamExtensions | Validate Integrity Incident Tracking | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38456064334) |
 | admknight/CloudstreamExtensions | Validate Per-Plugin Integrity Selection (Preview Only) | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37969724236) |
 | admknight/CloudstreamExtensions | Verify final sixteen unsigned original source packages (read only) | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37999006196) |
-| admknight/CloudstreamExtensions | Verify Immutable Published Package Recovery Revisions | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38717946803) |
+| admknight/CloudstreamExtensions | Verify Immutable Published Package Recovery Revisions | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38884015884) |
 | admknight/CloudstreamExtensions | Verify nine legacy original-source packages (read only) | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37997806285) |
-| admknight/CloudstreamExtensions | Verify Published Guarded Catalog Integrity | failure | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38878316093) |
+| admknight/CloudstreamExtensions | Verify Published Guarded Catalog Integrity | failure | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/38893964517) |
 | admknight/CloudstreamExtensions | Verify Visitor Journeys (PR) | success | [Open](https://github.com/admknight/CloudstreamExtensions/actions/runs/37869445191) |
 
 ---
