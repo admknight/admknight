@@ -169,7 +169,7 @@ A selection of original public projects spanning open-source automation, AI inst
       </a>
       <h3><a href="https://github.com/admknight/pakistan-lunar-thursday">🌙 Hilal Thursday — ہلال جمعرات</a></h3>
       <p><strong>Android · Islamic Calendar · English &amp; Urdu</strong></p>
-      <p>Open-source reminders at 11:00 AM Pakistan time on the first Thursday of each Islamic month, with optional weather-aware visuals, in-app updates and three signature alarm sounds.</p>
+      <p>Open-source reminders on the first Thursday of each Islamic month at a user-selected Pakistan time (11:00 AM PKT by default), with optional weather-aware visuals, in-app updates and three signature alarm sounds.</p>
       <p>
         <a href="https://github.com/admknight/pakistan-lunar-thursday/releases"><img src="https://raw.githubusercontent.com/admknight/pakistan-lunar-thursday/main/docs/stats/apk-downloads.svg" alt="Cumulative APK downloads across all published GitHub versions"></a>
         <a href="https://github.com/admknight/pakistan-lunar-thursday/actions/workflows/build-apk.yml"><img src="https://github.com/admknight/pakistan-lunar-thursday/actions/workflows/build-apk.yml/badge.svg" alt="Hilal Thursday Android build status"></a>
